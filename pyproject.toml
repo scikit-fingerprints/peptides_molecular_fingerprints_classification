@@ -1,0 +1,32 @@
+[project]
+name = "peptides_molecular_fingerprints_classification"
+version = "1.0.0"
+description = "Peptide function prediction (classification) using molecular fingerprints"
+authors = [{name = "Jakub Adamczyk", email = "jadamczy@agh.edu.pl"}]
+license = "MIT"
+package-mode = false
+
+requires-python = ">=3.11,<3.12"
+dynamic = ["dependencies"]
+
+[tool.poetry.dependencies]
+lightgbm = "4.5.0"
+matplotlib = "3.10.0"
+openpyxl = "3.1.5"
+scikit-fingerprints = "1.12.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+pre-commit = "*"
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
