@@ -1,6 +1,7 @@
 # Molecular Fingerprints Are Strong Models for Peptide Function Prediction
 
-Code for paper "Molecular Fingerprints Are Strong Models for Peptide Function Prediction" J. Adamczyk, P. Ludynia, W. Czech.
+Code for paper "Molecular Fingerprints Are Strong Models for Peptide Function Prediction" J. Adamczyk, P. Ludynia, W. Czech,
+from AGH ML & Chemoinformatics Group.
 
 Preprint is available [on Arxiv](https://arxiv.org/abs/2501.17901).
 
